@@ -5,9 +5,9 @@
 const fs = require('fs')
 
 const config = {
-    owner: "-",
-    botNumber: "-",
-    setPair: "K0MRAID1",
+    owner: "Desmond Owusu Yeboah",
+    botNumber: "233257938281",
+    setPair: "Boye Otoo md",
     thumbUrl: "https://i.imgur.com/IkEv97P.jpeg",
     session: "sessions",
     status: {
@@ -28,9 +28,9 @@ const config = {
         wait: 'Please wait...'
     },
     settings: {
-        title: "Simple WA Base Bot",
-        packname: 'WA-BASE',
-        description: "this script was created by Debraj",
+        title: "Advanced whatsapp bot",
+        packname: 'Boye otoo md',
+        description: "Advance whatsapp bot",
         author: 'https://www.github.com/OfficialKango',
         footer: "饾棈饾柧饾梾饾柧饾梹饾棆饾柡饾梿: @official_kango"
     },
