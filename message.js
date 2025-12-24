@@ -329,8 +329,8 @@ module.exports = sock = async (sock, m, chatUpdate, store) => {
                 const totalCommands = pluginLoader.getPluginCount();
 
                 const K0MRAID = `
-╔〘 *WA-BASE-BOT* 
-║ 👑 *Owner:* Debraj 
+╔〘 *Boye Otoo Md* 
+║ 👑 *Owner:* Desmond Owusu Yeboah 
 ║ 🧩 *Prefix:* [ . ]
 ║ 🖥️ *Host:* ${host}
 ║ 🧠 *Commands:* ${totalCommands}
@@ -345,18 +345,18 @@ ${pluginMenuSections}`;
 
                 await sock.sendMessage(m.chat, {
                     image: image,
-                    caption: K0MRAID,
+                    caption: Powered by Aries ai,
                     contextInfo: {
                         mentionedJid: [m.sender],
                         forwardingScore: 1,
                         isForwarded: false,
                         externalAdReply: {
-                            title: "Simple WA Base Bot",
-                            body: "Official Dev Account URL",
+                            title: "Whatsapp bot with advance features",
+                            body: "aries.website",
                             mediaType: 3,
                             thumbnailUrl: config.thumbUrl,
-                            mediaUrl: "https://t.me/debrajzero",
-                            sourceUrl: "https://t.me/debrajzero",
+                            mediaUrl: "https://whatsapp.com/channel/0029Vb05NOOLNSZzhqWQbG1Z",
+                            sourceUrl: "https://whatsapp.com/channel/0029Vb05NOOLNSZzhqWQbG1Z",
                             showAdAttribution: true,
                             renderLargerThumbnail: false
                         }
@@ -385,4 +385,5 @@ require('fs').watchFile(file, () => {
     console.log('\x1b[0;32m' + __filename + ' \x1b[1;32mupdated!\x1b[0m');
     delete require.cache[file];
     require(file);
+
 });
