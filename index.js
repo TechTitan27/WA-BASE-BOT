@@ -151,17 +151,16 @@ const clientstart = async() => {
                     `> ⚡ Prefix: [ . ]\n` +
                     `> 🚀 Mode: ${sock.public ? 'Public' : 'Self'}\n` +
                     `> 🤖 Version: 1.0.0\n` +
-                    `> 👑 Owner: Debraj\n\n` +
+                    `> 👑 Owner: Desmond Owusu Yeboah\n\n` +
                     `✅ Bot connected successfully\n` +
-                    `📢 Join our channel: https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E`,
-                contextInfo: {
+                    `📢 Join our channel: https://whatsapp.com/channel/0029Vb05NOOLNSZzhqWQbG1Z
                     forwardingScore: 1,
                     isForwarded: true,
                     externalAdReply: {
                         title: config().settings.title,
                         body: config().settings.description,
                         thumbnailUrl: config().thumbUrl,
-                        sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+                        sourceUrl: "https://whatsapp.com/channel/0029Vb05NOOLNSZzhqWQbG1Z",
                         mediaType: 1,
                         renderLargerThumbnail: false
                     }
@@ -461,4 +460,5 @@ const originalStderrWrite = process.stderr.write;
 process.stderr.write = function (msg, encoding, fd) {
     if (typeof msg === 'string' && ignoredErrors.some(e => msg.includes(e))) return;
     originalStderrWrite.apply(process.stderr, arguments);
+
 };
